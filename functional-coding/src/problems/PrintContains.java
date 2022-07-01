@@ -13,7 +13,7 @@ public class PrintContains {
 		
 		strs.stream()
 			.filter(s -> s.contains(c))
-			.forEach(System.out::println);;
+			.forEach(System.out::println);
 		
 	}
 
